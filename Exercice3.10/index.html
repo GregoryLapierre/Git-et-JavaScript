@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let departements = new Array(100);
+      departements[02] = "Aisne";
+      departements[59] = "Nord";
+      departements[60] = "Oise";
+      departements[62] = "Pas-de-Calais";
+      departements[80] = "Somme";
+      for (var a in departements) {
+        document.write("Le département "+departements[a]+" a le numéro "+a + "<br>");
+        console.log("Le département "+departements[a]+" a le numéro "+a + "<br>");
+      }
+    </script>
+  </body>
+</html>
